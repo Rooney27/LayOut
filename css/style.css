@@ -249,6 +249,9 @@
     font-size: 25px;
 }
 .service{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
     margin-top: 30px;
     margin-bottom: 50px;
 }
