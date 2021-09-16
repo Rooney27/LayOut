@@ -249,11 +249,15 @@
     font-size: 25px;
 }
 .service{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+    height: 100vh;
+    display: flex;
     margin-top: 30px;
     margin-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: baseline;
 }
 .last-works{
     margin-top: 30px;
